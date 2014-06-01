@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		425C710B193B310300E4BBD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425C710A193B310300E4BBD5 /* Foundation.framework */; };
+		425C710D193B310300E4BBD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425C710C193B310300E4BBD5 /* CoreGraphics.framework */; };
+		425C710F193B310300E4BBD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425C710E193B310300E4BBD5 /* UIKit.framework */; };
+		425C7115193B310300E4BBD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 425C7113193B310300E4BBD5 /* InfoPlist.strings */; };
+		425C7117193B310300E4BBD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 425C7116193B310300E4BBD5 /* main.m */; };
+		425C711B193B310300E4BBD5 /* BooomAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 425C711A193B310300E4BBD5 /* BooomAppDelegate.m */; };
+		425C711E193B310300E4BBD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425C711C193B310300E4BBD5 /* Main.storyboard */; };
+		425C7121193B310300E4BBD5 /* BooomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425C7120193B310300E4BBD5 /* BooomViewController.m */; };
+		425C7123193B310400E4BBD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425C7122193B310400E4BBD5 /* Images.xcassets */; };
+		425C712A193B310400E4BBD5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425C7129193B310400E4BBD5 /* XCTest.framework */; };
+		425C712B193B310400E4BBD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425C710A193B310300E4BBD5 /* Foundation.framework */; };
+		425C712C193B310400E4BBD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425C710E193B310300E4BBD5 /* UIKit.framework */; };
+		425C7134193B310400E4BBD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 425C7132193B310400E4BBD5 /* InfoPlist.strings */; };
+		425C7136193B310400E4BBD5 /* BooomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425C7135193B310400E4BBD5 /* BooomTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		425C712D193B310400E4BBD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 425C70FF193B310300E4BBD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 425C7106193B310300E4BBD5;
+			remoteInfo = Booom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		425C7107193B310300E4BBD5 /* Booom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Booom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		425C710A193B310300E4BBD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		425C710C193B310300E4BBD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		425C710E193B310300E4BBD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		425C7112193B310300E4BBD5 /* Booom-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Booom-Info.plist"; sourceTree = "<group>"; };
+		425C7114193B310300E4BBD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		425C7116193B310300E4BBD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		425C7118193B310300E4BBD5 /* Booom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Booom-Prefix.pch"; sourceTree = "<group>"; };
+		425C7119193B310300E4BBD5 /* BooomAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BooomAppDelegate.h; sourceTree = "<group>"; };
+		425C711A193B310300E4BBD5 /* BooomAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BooomAppDelegate.m; sourceTree = "<group>"; };
+		425C711D193B310300E4BBD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		425C711F193B310300E4BBD5 /* BooomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BooomViewController.h; sourceTree = "<group>"; };
+		425C7120193B310300E4BBD5 /* BooomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BooomViewController.m; sourceTree = "<group>"; };
+		425C7122193B310400E4BBD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		425C7128193B310400E4BBD5 /* BooomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		425C7129193B310400E4BBD5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		425C7131193B310400E4BBD5 /* BooomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BooomTests-Info.plist"; sourceTree = "<group>"; };
+		425C7133193B310400E4BBD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		425C7135193B310400E4BBD5 /* BooomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BooomTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		425C7104193B310300E4BBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425C710D193B310300E4BBD5 /* CoreGraphics.framework in Frameworks */,
+				425C710F193B310300E4BBD5 /* UIKit.framework in Frameworks */,
+				425C710B193B310300E4BBD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425C7125193B310400E4BBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425C712A193B310400E4BBD5 /* XCTest.framework in Frameworks */,
+				425C712C193B310400E4BBD5 /* UIKit.framework in Frameworks */,
+				425C712B193B310400E4BBD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		425C70FE193B310300E4BBD5 = {
+			isa = PBXGroup;
+			children = (
+				425C7110193B310300E4BBD5 /* Booom */,
+				425C712F193B310400E4BBD5 /* BooomTests */,
+				425C7109193B310300E4BBD5 /* Frameworks */,
+				425C7108193B310300E4BBD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		425C7108193B310300E4BBD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				425C7107193B310300E4BBD5 /* Booom.app */,
+				425C7128193B310400E4BBD5 /* BooomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		425C7109193B310300E4BBD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				425C710A193B310300E4BBD5 /* Foundation.framework */,
+				425C710C193B310300E4BBD5 /* CoreGraphics.framework */,
+				425C710E193B310300E4BBD5 /* UIKit.framework */,
+				425C7129193B310400E4BBD5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		425C7110193B310300E4BBD5 /* Booom */ = {
+			isa = PBXGroup;
+			children = (
+				425C7119193B310300E4BBD5 /* BooomAppDelegate.h */,
+				425C711A193B310300E4BBD5 /* BooomAppDelegate.m */,
+				425C711C193B310300E4BBD5 /* Main.storyboard */,
+				425C711F193B310300E4BBD5 /* BooomViewController.h */,
+				425C7120193B310300E4BBD5 /* BooomViewController.m */,
+				425C7122193B310400E4BBD5 /* Images.xcassets */,
+				425C7111193B310300E4BBD5 /* Supporting Files */,
+			);
+			path = Booom;
+			sourceTree = "<group>";
+		};
+		425C7111193B310300E4BBD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				425C7112193B310300E4BBD5 /* Booom-Info.plist */,
+				425C7113193B310300E4BBD5 /* InfoPlist.strings */,
+				425C7116193B310300E4BBD5 /* main.m */,
+				425C7118193B310300E4BBD5 /* Booom-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		425C712F193B310400E4BBD5 /* BooomTests */ = {
+			isa = PBXGroup;
+			children = (
+				425C7135193B310400E4BBD5 /* BooomTests.m */,
+				425C7130193B310400E4BBD5 /* Supporting Files */,
+			);
+			path = BooomTests;
+			sourceTree = "<group>";
+		};
+		425C7130193B310400E4BBD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				425C7131193B310400E4BBD5 /* BooomTests-Info.plist */,
+				425C7132193B310400E4BBD5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		425C7106193B310300E4BBD5 /* Booom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425C7139193B310400E4BBD5 /* Build configuration list for PBXNativeTarget "Booom" */;
+			buildPhases = (
+				425C7103193B310300E4BBD5 /* Sources */,
+				425C7104193B310300E4BBD5 /* Frameworks */,
+				425C7105193B310300E4BBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Booom;
+			productName = Booom;
+			productReference = 425C7107193B310300E4BBD5 /* Booom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		425C7127193B310400E4BBD5 /* BooomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425C713C193B310400E4BBD5 /* Build configuration list for PBXNativeTarget "BooomTests" */;
+			buildPhases = (
+				425C7124193B310400E4BBD5 /* Sources */,
+				425C7125193B310400E4BBD5 /* Frameworks */,
+				425C7126193B310400E4BBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				425C712E193B310400E4BBD5 /* PBXTargetDependency */,
+			);
+			name = BooomTests;
+			productName = BooomTests;
+			productReference = 425C7128193B310400E4BBD5 /* BooomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		425C70FF193B310300E4BBD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Booom;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yu Asabe";
+				TargetAttributes = {
+					425C7127193B310400E4BBD5 = {
+						TestTargetID = 425C7106193B310300E4BBD5;
+					};
+				};
+			};
+			buildConfigurationList = 425C7102193B310300E4BBD5 /* Build configuration list for PBXProject "Booom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 425C70FE193B310300E4BBD5;
+			productRefGroup = 425C7108193B310300E4BBD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				425C7106193B310300E4BBD5 /* Booom */,
+				425C7127193B310400E4BBD5 /* BooomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		425C7105193B310300E4BBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425C7123193B310400E4BBD5 /* Images.xcassets in Resources */,
+				425C7115193B310300E4BBD5 /* InfoPlist.strings in Resources */,
+				425C711E193B310300E4BBD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425C7126193B310400E4BBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425C7134193B310400E4BBD5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		425C7103193B310300E4BBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425C7117193B310300E4BBD5 /* main.m in Sources */,
+				425C7121193B310300E4BBD5 /* BooomViewController.m in Sources */,
+				425C711B193B310300E4BBD5 /* BooomAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425C7124193B310400E4BBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425C7136193B310400E4BBD5 /* BooomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		425C712E193B310400E4BBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 425C7106193B310300E4BBD5 /* Booom */;
+			targetProxy = 425C712D193B310400E4BBD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		425C7113193B310300E4BBD5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425C7114193B310300E4BBD5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		425C711C193B310300E4BBD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425C711D193B310300E4BBD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		425C7132193B310400E4BBD5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425C7133193B310400E4BBD5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		425C7137193B310400E4BBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		425C7138193B310400E4BBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		425C713A193B310400E4BBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Booom/Booom-Prefix.pch";
+				INFOPLIST_FILE = "Booom/Booom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		425C713B193B310400E4BBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Booom/Booom-Prefix.pch";
+				INFOPLIST_FILE = "Booom/Booom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		425C713D193B310400E4BBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Booom.app/Booom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Booom/Booom-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BooomTests/BooomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		425C713E193B310400E4BBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Booom.app/Booom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Booom/Booom-Prefix.pch";
+				INFOPLIST_FILE = "BooomTests/BooomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		425C7102193B310300E4BBD5 /* Build configuration list for PBXProject "Booom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425C7137193B310400E4BBD5 /* Debug */,
+				425C7138193B310400E4BBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		425C7139193B310400E4BBD5 /* Build configuration list for PBXNativeTarget "Booom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425C713A193B310400E4BBD5 /* Debug */,
+				425C713B193B310400E4BBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		425C713C193B310400E4BBD5 /* Build configuration list for PBXNativeTarget "BooomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425C713D193B310400E4BBD5 /* Debug */,
+				425C713E193B310400E4BBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 425C70FF193B310300E4BBD5 /* Project object */;
+}
