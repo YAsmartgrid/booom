@@ -79,7 +79,7 @@
 //    }
 //    
     imageSizeBVC = 20;
-    imageNumBVC = 0;
+    imageNumBVC = 3;
 	
     skView = (SKView *)self.view;
     // Sceneを作る
@@ -105,6 +105,8 @@
 
 #pragma mark - Gesture Handler
 - (void)tapped:(UITapGestureRecognizer *)gesture {
+    
+    //self.scene.physicsWorld.gravity = CGVectorMake(0,-1);
     
 //    int imageNum;
 //    int imageSize;
@@ -150,8 +152,21 @@
         }
 
         
-    } else {
-        sprite = [SKSpriteNode spriteNodeWithImageNamed:@"orange"];
+    } else if (imageNumBVC == 3){
+        int random = arc4random() % 6;
+        if (random == 0) {
+            sprite = [SKSpriteNode spriteNodeWithImageNamed:@"melon"];
+        } else if (random == 1) {
+            sprite = [SKSpriteNode spriteNodeWithImageNamed:@"melon2"];
+        } else if (random == 2) {
+            sprite = [SKSpriteNode spriteNodeWithImageNamed:@"watermelon"];
+        } else if (random == 3) {
+            sprite = [SKSpriteNode spriteNodeWithImageNamed:@"watermelon2"];
+        } else if (random == 4) {
+            sprite = [SKSpriteNode spriteNodeWithImageNamed:@"orange"];
+        } else if (random == 5) {
+            sprite = [SKSpriteNode spriteNodeWithImageNamed:@"orange2"];
+        }
     }
     
     

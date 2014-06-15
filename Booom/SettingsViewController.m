@@ -10,7 +10,10 @@
 #import "SettingsViewController.h"
 #import "BooomViewController.h"
 
-@interface SettingsViewController ()
+@interface SettingsViewController () {
+    
+    BOOL isPressed;
+}
 
 @end
 
@@ -74,16 +77,26 @@
     
     NSLog(@"%d %d",imageNum, imageSize);
     
+    if (isPressed == false) {
+        imageNum = 3;
+    }
+    
     BooomViewController *bvc = (BooomViewController *)[self presentingViewController];
     
     bvc.imageSizeBVC = imageSize;
     bvc.imageNumBVC = imageNum;
+    
     
     [self dismissViewControllerAnimated:YES completion:nil];
     //[self presentViewController:bvc animated:YES completion:nil];
 }
 
 - (IBAction)chooseMelon:(id)sender {
+    if (isPressed) {
+        isPressed = false;
+    } else {
+        isPressed = true;
+    }
     imageNum = 0;
     imageMelon.alpha = 1.0;
     imageOrange.alpha = 0.5;
@@ -98,6 +111,13 @@
 }
 
 - (IBAction)chooseOrange:(id)sender {
+    if (isPressed) {
+        isPressed = false;
+    } else {
+        isPressed = true;
+    }
+    
+    
     imageNum = 1;
     imageOrange.alpha = 1.0;
     imageMelon.alpha = 0.5;
@@ -108,6 +128,13 @@
 }
 
 - (IBAction)chooseWaterMelon:(id)sender {
+    
+    if (isPressed) {
+        isPressed = false;
+    } else {
+        isPressed = true;
+    }
+    
     imageNum = 2;
     imageWatermelon.alpha = 1.0;
     imageMelon.alpha = 0.5;
