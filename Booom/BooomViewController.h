@@ -10,4 +10,10 @@
 
 @interface BooomViewController : UIViewController
 
+@property (nonatomic) int imageNumBVC;
+@property (nonatomic) int imageSizeBVC;
+@property (nonatomic) BOOL isCleared;
+
+- (void)clearAll2;
+
 @end

@@ -21,6 +21,14 @@
 		425C712C193B310400E4BBD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425C710E193B310300E4BBD5 /* UIKit.framework */; };
 		425C7134193B310400E4BBD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 425C7132193B310400E4BBD5 /* InfoPlist.strings */; };
 		425C7136193B310400E4BBD5 /* BooomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425C7135193B310400E4BBD5 /* BooomTests.m */; };
+		425C7140193B310F00E4BBD5 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425C713F193B310F00E4BBD5 /* SpriteKit.framework */; };
+		425C7142193B31AB00E4BBD5 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C7141193B31AB00E4BBD5 /* orange.png */; };
+		425C7147193B3C2800E4BBD5 /* watermelon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C7143193B3C2800E4BBD5 /* watermelon2.png */; };
+		425C7148193B3C2800E4BBD5 /* watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C7144193B3C2800E4BBD5 /* watermelon.png */; };
+		425C7149193B3C2800E4BBD5 /* melon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C7145193B3C2800E4BBD5 /* melon2.png */; };
+		425C714A193B3C2800E4BBD5 /* melon.png in Resources */ = {isa = PBXBuildFile; fileRef = 425C7146193B3C2800E4BBD5 /* melon.png */; };
+		425C714D193B402500E4BBD5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425C714C193B402500E4BBD5 /* SettingsViewController.m */; };
+		42B44E35194D3A1000863395 /* orange2.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B44E34194D3A1000863395 /* orange2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,15 @@
 		425C7131193B310400E4BBD5 /* BooomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BooomTests-Info.plist"; sourceTree = "<group>"; };
 		425C7133193B310400E4BBD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		425C7135193B310400E4BBD5 /* BooomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BooomTests.m; sourceTree = "<group>"; };
+		425C713F193B310F00E4BBD5 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		425C7141193B31AB00E4BBD5 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		425C7143193B3C2800E4BBD5 /* watermelon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermelon2.png; sourceTree = "<group>"; };
+		425C7144193B3C2800E4BBD5 /* watermelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermelon.png; sourceTree = "<group>"; };
+		425C7145193B3C2800E4BBD5 /* melon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = melon2.png; sourceTree = "<group>"; };
+		425C7146193B3C2800E4BBD5 /* melon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = melon.png; sourceTree = "<group>"; };
+		425C714B193B402500E4BBD5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		425C714C193B402500E4BBD5 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		42B44E34194D3A1000863395 /* orange2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425C7140193B310F00E4BBD5 /* SpriteKit.framework in Frameworks */,
 				425C710D193B310300E4BBD5 /* CoreGraphics.framework in Frameworks */,
 				425C710F193B310300E4BBD5 /* UIKit.framework in Frameworks */,
 				425C710B193B310300E4BBD5 /* Foundation.framework in Frameworks */,
@@ -101,6 +119,7 @@
 		425C7109193B310300E4BBD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				425C713F193B310F00E4BBD5 /* SpriteKit.framework */,
 				425C710A193B310300E4BBD5 /* Foundation.framework */,
 				425C710C193B310300E4BBD5 /* CoreGraphics.framework */,
 				425C710E193B310300E4BBD5 /* UIKit.framework */,
@@ -112,9 +131,17 @@
 		425C7110193B310300E4BBD5 /* Booom */ = {
 			isa = PBXGroup;
 			children = (
+				42B44E34194D3A1000863395 /* orange2.png */,
+				425C7143193B3C2800E4BBD5 /* watermelon2.png */,
+				425C7144193B3C2800E4BBD5 /* watermelon.png */,
+				425C7145193B3C2800E4BBD5 /* melon2.png */,
+				425C7146193B3C2800E4BBD5 /* melon.png */,
+				425C7141193B31AB00E4BBD5 /* orange.png */,
 				425C7119193B310300E4BBD5 /* BooomAppDelegate.h */,
 				425C711A193B310300E4BBD5 /* BooomAppDelegate.m */,
 				425C711C193B310300E4BBD5 /* Main.storyboard */,
+				425C714B193B402500E4BBD5 /* SettingsViewController.h */,
+				425C714C193B402500E4BBD5 /* SettingsViewController.m */,
 				425C711F193B310300E4BBD5 /* BooomViewController.h */,
 				425C7120193B310300E4BBD5 /* BooomViewController.m */,
 				425C7122193B310400E4BBD5 /* Images.xcassets */,
@@ -229,9 +256,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425C7149193B3C2800E4BBD5 /* melon2.png in Resources */,
 				425C7123193B310400E4BBD5 /* Images.xcassets in Resources */,
+				425C7148193B3C2800E4BBD5 /* watermelon.png in Resources */,
+				425C7147193B3C2800E4BBD5 /* watermelon2.png in Resources */,
+				425C7142193B31AB00E4BBD5 /* orange.png in Resources */,
+				42B44E35194D3A1000863395 /* orange2.png in Resources */,
 				425C7115193B310300E4BBD5 /* InfoPlist.strings in Resources */,
 				425C711E193B310300E4BBD5 /* Main.storyboard in Resources */,
+				425C714A193B3C2800E4BBD5 /* melon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +286,7 @@
 				425C7117193B310300E4BBD5 /* main.m in Sources */,
 				425C7121193B310300E4BBD5 /* BooomViewController.m in Sources */,
 				425C711B193B310300E4BBD5 /* BooomAppDelegate.m in Sources */,
+				425C714D193B402500E4BBD5 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +491,7 @@
 				425C713B193B310400E4BBD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		425C713C193B310400E4BBD5 /* Build configuration list for PBXNativeTarget "BooomTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +500,7 @@
 				425C713E193B310400E4BBD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
